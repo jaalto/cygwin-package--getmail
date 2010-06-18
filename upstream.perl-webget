@@ -1,0 +1,2 @@
+tag1: getmail
+  http://pyropus.ca/software/getmail/ pregexp:tar.gz file:getmail-4.6.7.tar.gz new: x:

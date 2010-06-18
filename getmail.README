@@ -1,0 +1,130 @@
+getmail
+------------------------------------------
+
+mail retriever with support for POP3, IMAP4 and SDPS
+
+A simple replacement for fetchmail. Program retrieves mail (either all
+messages, or only unread messages) from one or more POP3/IMAP4/SDPS
+servers for one or more email accounts, and reliably delivers into a
+qmail-style Maildir, mbox file or to a command (pipe delivery) like
+maildrop or procmail, specified on a per-account basis. getmail also
+has support for domain (multidrop) mailboxes.
+
+Supported protocols: POP3, POP3-over-SSL, IMAP4, IMAP4-over-SSL, and
+SDPS mail.
+
+Runtime requirements:
+  cygwin
+  python
+
+Build requirements:
+  cygwin
+  python
+
+Canonical homepage:
+  http://pyropus.ca/software/getmail
+  http://directory.fsf.org/project/getmail
+  http://packages.debian.org/getmail4
+
+Canonical download:
+  See above
+
+Version control repository:
+
+Mailing list:
+  <getmail@lists.pyropus.ca>
+  http://news.gmane.org/gmane.mail.getmail.user
+  http://news.gmane.org/gmane.mail.getmail.announce
+
+Forum / Wiki:
+
+IRC channel:
+
+Upstream contact:
+  Author: Charles Cazabon <getmail@discworld.dnsalias.org>
+  Bugs: Charles Cazabon <getmail@discworld.dnsalias.org>
+
+License:
+  GPL-2
+
+Language:
+  Python
+
+------------------------------------
+
+Build instructions:
+  unpack getmail-4.7.7-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./getmail*.sh all
+
+This will create:
+  getmail-4.7.7-1.tar.bz2
+  getmail-4.7.7-1-src.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary distribution:
+
+usr/bin/getmail
+usr/bin/getmail_fetch
+usr/bin/getmail_maildir
+usr/bin/getmail_mbox
+usr/lib/python2.5/site-packages/getmailcore/__init__.py
+usr/lib/python2.5/site-packages/getmailcore/__init__.pyc
+usr/lib/python2.5/site-packages/getmailcore/_pop3ssl.py
+usr/lib/python2.5/site-packages/getmailcore/_pop3ssl.pyc
+usr/lib/python2.5/site-packages/getmailcore/_retrieverbases.py
+usr/lib/python2.5/site-packages/getmailcore/_retrieverbases.pyc
+usr/lib/python2.5/site-packages/getmailcore/baseclasses.py
+usr/lib/python2.5/site-packages/getmailcore/baseclasses.pyc
+usr/lib/python2.5/site-packages/getmailcore/constants.py
+usr/lib/python2.5/site-packages/getmailcore/constants.pyc
+usr/lib/python2.5/site-packages/getmailcore/destinations.py
+usr/lib/python2.5/site-packages/getmailcore/destinations.pyc
+usr/lib/python2.5/site-packages/getmailcore/exceptions.py
+usr/lib/python2.5/site-packages/getmailcore/exceptions.pyc
+usr/lib/python2.5/site-packages/getmailcore/filters.py
+usr/lib/python2.5/site-packages/getmailcore/filters.pyc
+usr/lib/python2.5/site-packages/getmailcore/logging.py
+usr/lib/python2.5/site-packages/getmailcore/logging.pyc
+usr/lib/python2.5/site-packages/getmailcore/message.py
+usr/lib/python2.5/site-packages/getmailcore/message.pyc
+usr/lib/python2.5/site-packages/getmailcore/retrievers.py
+usr/lib/python2.5/site-packages/getmailcore/retrievers.pyc
+usr/lib/python2.5/site-packages/getmailcore/utilities.py
+usr/lib/python2.5/site-packages/getmailcore/utilities.pyc
+usr/share/doc/Cygwin/getmail-4.7.7.README
+usr/share/doc/getmail-4.7.7/BUGS
+usr/share/doc/getmail-4.7.7/CHANGELOG
+usr/share/doc/getmail-4.7.7/COPYING
+usr/share/doc/getmail-4.7.7/MANIFEST.in
+usr/share/doc/getmail-4.7.7/PKG-INFO
+usr/share/doc/getmail-4.7.7/README
+usr/share/doc/getmail-4.7.7/THANKS
+usr/share/doc/getmail-4.7.7/TODO
+usr/share/doc/getmail-4.7.7/configuration.html
+usr/share/doc/getmail-4.7.7/configuration.txt
+usr/share/doc/getmail-4.7.7/documentation.html
+usr/share/doc/getmail-4.7.7/documentation.txt
+usr/share/doc/getmail-4.7.7/faq.html
+usr/share/doc/getmail-4.7.7/faq.txt
+usr/share/doc/getmail-4.7.7/getmaildocs.css
+usr/share/doc/getmail-4.7.7/getmailrc-examples
+usr/share/doc/getmail-4.7.7/troubleshooting.html
+usr/share/doc/getmail-4.7.7/troubleshooting.txt
+usr/share/man/man1/getmail.1.gz
+usr/share/man/man1/getmail_fetch.1.gz
+usr/share/man/man1/getmail_maildir.1.gz
+usr/share/man/man1/getmail_mbox.1.gz
+
+------------------
+
+Port Notes:
+
+----- version 4.7.7-1 -----
+- Initial release 2007-11-30 Jari Aalto
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2007 Jari Aalto; Licenced under GPL v2 or later
