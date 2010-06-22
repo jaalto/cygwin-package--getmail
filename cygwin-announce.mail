@@ -5,7 +5,7 @@ Subject: Updated: getmail 4.7.7-2 -- mail retriever with support for POP3, IMAP4
 PACKAGE DESCRIPTION
 ===================
 
-Homepage: http://pyropus.ca/software/getmail
+Homepage: http://freshmeat.net/projects/getmail
 License : GPL-2
 
 A simple replacement for fetchmail. It retrieves mail (either all
@@ -18,8 +18,9 @@ has support for domain (multidrop) mailboxes.
 CHANGES SINCE LAST RELEASE
 ==========================
 
-Built for Python 2.6
-See http://news.gmane.org/gmane.mail.getmail.announce
+- Built for Python 2.6
+- See homepage and section "Recent release"
+- See also http://news.gmane.org/gmane.mail.getmail.announce
 
 INSTALL OR UPGRADE NOTES
 ========================
