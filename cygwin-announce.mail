@@ -1,8 +1,6 @@
-Copyright (C) 2007 Jari Aalto; Licenced under GPL v2 or later
-
 To: cygwin-announce@cygwin.com
-Subject: Updated: package N.N
-Subject: New package: getmail 4.7.7-1 -- mail retriever with support for POP3, IMAP4 and SDPS
+Subject: Updated: getmail 4.7.7-2 -- mail retriever with support for POP3, IMAP4
+--text follows this line--
 
 PACKAGE DESCRIPTION
 ===================
@@ -20,6 +18,7 @@ has support for domain (multidrop) mailboxes.
 CHANGES SINCE LAST RELEASE
 ==========================
 
+Built for Python 2.6
 See http://news.gmane.org/gmane.mail.getmail.announce
 
 INSTALL OR UPGRADE NOTES

@@ -123,8 +123,11 @@ usr/share/man/man1/getmail_mbox.1.gz
 
 Port Notes:
 
+----- version 4.7.7-2 -----
+- Python 2.6 2010-06-17 Jari Aalto
+
 ----- version 4.7.7-1 -----
 - Initial release 2007-11-30 Jari Aalto
 
 Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
-Copyright (C) 2007 Jari Aalto; Licenced under GPL v2 or later
+Copyright (C) 2007-2010 Jari Aalto; Licenced under GPL v2 or later

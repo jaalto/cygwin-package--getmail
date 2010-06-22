@@ -7,4 +7,4 @@ delivery) like maildrop or procmail, specified on a per-account basis.
 getmail also has support for domain (multidrop) mailboxes. Supported
 protocols: POP3, POP3-over-SSL, IMAP4, IMAP4-over-SSL, and SDPS mail."
 category: Mail Python
-requires: cygwin python
+requires: python
