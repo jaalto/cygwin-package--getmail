@@ -54,75 +54,27 @@ Language:
 ------------------------------------
 
 Build instructions:
-  unpack getmail-4.7.7-1-src.tar.bz2
+  unpack getmail-4.34.0-1-src.tar.bz2
     if you use setup to install this src package, it will be
     unpacked under /usr/src automatically
   cd /usr/src
   ./getmail*.sh all
 
 This will create:
-  getmail-4.7.7-1.tar.bz2
-  getmail-4.7.7-1-src.tar.bz2
+  getmail-4.34.0-1.tar.bz2
+  getmail-4.34.0-1-src.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary distribution:
-
-usr/bin/getmail
-usr/bin/getmail_fetch
-usr/bin/getmail_maildir
-usr/bin/getmail_mbox
-usr/lib/python2.5/site-packages/getmailcore/__init__.py
-usr/lib/python2.5/site-packages/getmailcore/__init__.pyc
-usr/lib/python2.5/site-packages/getmailcore/_pop3ssl.py
-usr/lib/python2.5/site-packages/getmailcore/_pop3ssl.pyc
-usr/lib/python2.5/site-packages/getmailcore/_retrieverbases.py
-usr/lib/python2.5/site-packages/getmailcore/_retrieverbases.pyc
-usr/lib/python2.5/site-packages/getmailcore/baseclasses.py
-usr/lib/python2.5/site-packages/getmailcore/baseclasses.pyc
-usr/lib/python2.5/site-packages/getmailcore/constants.py
-usr/lib/python2.5/site-packages/getmailcore/constants.pyc
-usr/lib/python2.5/site-packages/getmailcore/destinations.py
-usr/lib/python2.5/site-packages/getmailcore/destinations.pyc
-usr/lib/python2.5/site-packages/getmailcore/exceptions.py
-usr/lib/python2.5/site-packages/getmailcore/exceptions.pyc
-usr/lib/python2.5/site-packages/getmailcore/filters.py
-usr/lib/python2.5/site-packages/getmailcore/filters.pyc
-usr/lib/python2.5/site-packages/getmailcore/logging.py
-usr/lib/python2.5/site-packages/getmailcore/logging.pyc
-usr/lib/python2.5/site-packages/getmailcore/message.py
-usr/lib/python2.5/site-packages/getmailcore/message.pyc
-usr/lib/python2.5/site-packages/getmailcore/retrievers.py
-usr/lib/python2.5/site-packages/getmailcore/retrievers.pyc
-usr/lib/python2.5/site-packages/getmailcore/utilities.py
-usr/lib/python2.5/site-packages/getmailcore/utilities.pyc
-usr/share/doc/Cygwin/getmail-4.7.7.README
-usr/share/doc/getmail-4.7.7/BUGS
-usr/share/doc/getmail-4.7.7/CHANGELOG
-usr/share/doc/getmail-4.7.7/COPYING
-usr/share/doc/getmail-4.7.7/MANIFEST.in
-usr/share/doc/getmail-4.7.7/PKG-INFO
-usr/share/doc/getmail-4.7.7/README
-usr/share/doc/getmail-4.7.7/THANKS
-usr/share/doc/getmail-4.7.7/TODO
-usr/share/doc/getmail-4.7.7/configuration.html
-usr/share/doc/getmail-4.7.7/configuration.txt
-usr/share/doc/getmail-4.7.7/documentation.html
-usr/share/doc/getmail-4.7.7/documentation.txt
-usr/share/doc/getmail-4.7.7/faq.html
-usr/share/doc/getmail-4.7.7/faq.txt
-usr/share/doc/getmail-4.7.7/getmaildocs.css
-usr/share/doc/getmail-4.7.7/getmailrc-examples
-usr/share/doc/getmail-4.7.7/troubleshooting.html
-usr/share/doc/getmail-4.7.7/troubleshooting.txt
-usr/share/man/man1/getmail.1.gz
-usr/share/man/man1/getmail_fetch.1.gz
-usr/share/man/man1/getmail_maildir.1.gz
-usr/share/man/man1/getmail_mbox.1.gz
+  See Cygwin package archive
 
 ------------------
 
 Port Notes:
+
+----- version 4.34.0-1 -----
+- New upstream release 2012-09-15 Jari Aalto
 
 ----- version 4.7.7-2 -----
 - Python 2.6 2010-06-17 Jari Aalto
@@ -131,4 +83,4 @@ Port Notes:
 - Initial release 2007-11-30 Jari Aalto
 
 Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
-Copyright (C) 2007-2010 Jari Aalto; Licenced under GPL v2 or later
+Copyright (C) 2007-2012 Jari Aalto; Licenced under GPL v2 or later

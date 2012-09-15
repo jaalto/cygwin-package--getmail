@@ -1,4 +1,4 @@
-sdesc: "mail retriever with support for POP3, IMAP4 and SDPS"
+sdesc: "Mail retriever with support for POP3, IMAP4 and SDPS"
 ldesc: "A simple replacement for fetchmail. Program retrieves mail
 (either all messages, or only unread messages) from one or more
 POP3/IMAP4/SDPS servers for one or more email accounts, and reliably
