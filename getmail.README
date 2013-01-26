@@ -54,15 +54,15 @@ Language:
 ------------------------------------
 
 Build instructions:
-  unpack getmail-4.34.0-1-src.tar.bz2
+  unpack getmail-4.36.0-1-src.tar.bz2
     if you use setup to install this src package, it will be
     unpacked under /usr/src automatically
   cd /usr/src
   ./getmail*.sh all
 
 This will create:
-  getmail-4.34.0-1.tar.bz2
-  getmail-4.34.0-1-src.tar.bz2
+  getmail-4.36.0-1.tar.bz2
+  getmail-4.36.0-1-src.tar.bz2
 
 -------------------------------------------
 
@@ -72,6 +72,10 @@ Files included in the binary distribution:
 ------------------
 
 Port Notes:
+
+----- version 4.36.0-1 -----
+- New upstream release 2013-01-26 Jari Aalto
+- Python 2.7
 
 ----- version 4.34.0-1 -----
 - New upstream release 2012-09-15 Jari Aalto
@@ -83,4 +87,4 @@ Port Notes:
 - Initial release 2007-11-30 Jari Aalto
 
 Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
-Copyright (C) 2007-2012 Jari Aalto; Licenced under GPL v2 or later
+Copyright (C) 2007-2013 Jari Aalto; Licenced under GPL v2 or later
