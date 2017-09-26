@@ -54,15 +54,15 @@ Language:
 ------------------------------------
 
 Build instructions:
-  unpack getmail-4.36.0-2-src.tar.bz2
+  unpack getmail-5.1-1-src.tar.bz2
     if you use setup to install this src package, it will be
     unpacked under /usr/src automatically
   cd /usr/src
   ./getmail*.sh all
 
 This will create:
-  getmail-4.36.0-2.tar.bz2
-  getmail-4.36.0-2-src.tar.bz2
+  getmail-5.1-1.tar.xz
+  getmail-5.1-1-src.tar.xz
 
 -------------------------------------------
 
@@ -72,6 +72,9 @@ Files included in the binary distribution:
 ------------------
 
 Port Notes:
+
+----- version 5.1-1 -----
+- New upstream release 2017-09-26 Jari Aalto
 
 ----- version 4.36.0-2 -----
 - Cygwin packaging update 2013-09-15 Jari Aalto
@@ -90,5 +93,5 @@ Port Notes:
 ----- version 4.7.7-1 -----
 - Initial release 2007-11-30 Jari Aalto
 
-Cygwin port maintained by: user <jari.aalto@cante.net>
-Copyright (C) 2007-2013 Jari Aalto; Licenced under GPL v2 or later
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2007-2017 Jari Aalto; Licenced under GPL v2 or later
