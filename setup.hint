@@ -1,3 +1,4 @@
+# ARCH=noarch
 sdesc: "Mail retriever with support for POP3, IMAP4 and SDPS"
 ldesc: "A simple replacement for fetchmail. Program retrieves mail
 (either all messages, or only unread messages) from one or more
